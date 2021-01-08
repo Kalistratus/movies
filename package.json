@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/dkhovrich/hillel-webpack/issues"
   },
-  "homepage": "https://kalistratus.github.io/movie/",
+  "homepage": "https://kalistratus.github.io/movies/",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
