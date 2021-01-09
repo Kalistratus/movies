@@ -10,11 +10,11 @@ module.exports = {
     devtool: 'inline-source-map',
     output: {
         filename: 'main.[hash].js',
-        path: path.resolve(__dirname, 'public'),
+        path: path.resolve(__dirname, 'build'),
     },
     devServer: {
         historyApiFallback: true,
-        contentBase: path.resolve(__dirname, './public'),
+        contentBase: path.resolve(__dirname, './build'),
         open: true,
         compress: true,
         hot: true,
