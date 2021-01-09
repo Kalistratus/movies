@@ -17,11 +17,6 @@ import {
   v4 as uuidv4
 } from 'uuid';
 
-import {
-  stringify, parse
-} from "query-string";
-
-
 function parseFilms(json) {
   try {
     return JSON.parse(json);

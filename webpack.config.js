@@ -52,9 +52,6 @@ module.exports = {
             $: 'jquery',
             jQuery: 'jquery'
           }),
-        // new HtmlWebpackPlugin({
-        //     template: 'src/assets/test.html'
-        //   }),
         new MiniCssExtractPlugin(),
         new webpack.HotModuleReplacementPlugin()
     ]

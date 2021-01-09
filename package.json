@@ -10,16 +10,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dkhovrich/hillel-webpack.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dkhovrich/hillel-webpack/issues"
-  },
   "homepage": "https://kalistratus.github.io/movies/",
   "devDependencies": {
     "@babel/core": "^7.12.3",
